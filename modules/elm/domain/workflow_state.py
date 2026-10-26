@@ -1,7 +1,7 @@
-from enum import Enum
+from enum import StrEnum
 
 
-class LeaveRequestStatus(str, Enum):
+class LeaveRequestStatus(StrEnum):
     SUBMITTED = "SUBMITTED"
     PENDING_UNIT_HEAD = "PENDING_UNIT_HEAD"
     PENDING_SANCTION = "PENDING_SANCTION"
